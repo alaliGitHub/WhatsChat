@@ -49,7 +49,7 @@ demo = gr.ChatInterface(
     additional_inputs=[
                             gr.Textbox("https://openai-sandbox-gs.openai.azure.com", label="OPENAI_API_BASE"), 
                             gr.Textbox("2023-05-15", label="OPENAI_API_VERSION"),
-                            gr.Textbox("4ef8c3bb457643c8a4ba07c475ac821a", label="OPENAI_API_KEY"),
+                            gr.Textbox("Your secret here", label="OPENAI_API_KEY"),
                             gr.Textbox("gpt35-turbo-deployment", label="OPENAI_DEPLOYMENT_NAME"),
                             gr.Slider(10, 100)
                         ]
